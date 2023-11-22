@@ -1,4 +1,5 @@
-body {background-color: #edf6f9;}
+body {background-color: #edf6f9;
+      background-image: url(C:\Users\tille\OneDrive - uns.edu.ar\Escritorio\ProyectoPotrero\imagenes\mila2.jpg);}
 
 .subtitulo1 {color: #006d77;}
 
@@ -14,6 +15,9 @@ body {background-color: #edf6f9;}
 
 .subtitulo2 {text-decoration-line: underline;}
 
-.imagen1 {width: max-content;}
+.imagen1 {width: 400px;}
 
-.imagen1 {height: auto;}
+.imagen1 {height: 250px;;}
+
+.imageningredientes {height: 200px;width: 200px;}
+
