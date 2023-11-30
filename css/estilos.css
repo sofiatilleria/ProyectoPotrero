@@ -19,7 +19,7 @@ body {background-color: white;}
 
 .logos {width: 50px; height: 50px;}
 .elementoflotante {position: fixed; bottom: 5%;left: 90%;}
-nav {background-image: url(/Users/tille/Downloads/fotonavegador.jpeg);height: 50vw;width: 100vw; background-repeat: no-repeat;
+nav {background-image: url("/Users/tille/OneDrive\ -\ uns.edu.ar/Escritorio/ProyectoPotrero/imagenes/fotonavegador.jpeg");height: 50vw;width: 100vw; background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;position: 50%; display: flex; justify-content: space-around; flex-wrap: wrap;}
 header {display: flex;justify-content: center;flex-wrap: nowrap;}
 .logo {width: 20vw;}
