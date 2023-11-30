@@ -19,7 +19,7 @@ body {background-color: white;}
 
 .logos {width: 50px; height: 50px;}
 .elementoflotante {position: fixed; bottom: 5%;left: 90%;}
-nav {background-image: url(../imagenes/fotonavegador.jpeg);height: 50vw;width: 100%; background-repeat: no-repeat;
+nav {background-image: url(../imagenes/fotonavegador.jpeg);height: 40vw;width: 100%; background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;position: 50%; display: flex; justify-content: space-around; flex-wrap: wrap;}
 header {display: flex;justify-content: center;flex-wrap: nowrap;}
 .logo {width: 20vw;}
@@ -28,5 +28,8 @@ a:hover{color: grey;}
 .imagen1 {width: 20vw; border: 0.3vw solid;background-color: #e5e5e5; border-color: #e5e5e5; padding: 2vw; display:flex;  justify-content: center; align-items: center;flex-direction: column;}
 .torta {width: 18vw}
 .catalogo {font-size: 2.5em;font-family: 'Playfair Display';color: #F59BAE;display: flex; justify-content: space-around;}
-footer {display: flex; justify-content: space-around; align-items: center; height: 10vw;}
+footer {display: flex; justify-content: space-around; align-items: center; height: 10vw;background-color: #e5e5e5;}
 .redes {font-size: 1.5em;font-family: 'Playfair Display';color: #F59BAE;display: flex; justify-content: center;align-items: center;flex-direction: column;}
+.texto {font-size: 1em;font-family: 'Playfair Display';color: black;text-align: center;}
+.gigi {width: 40vw;}
+.quiensoy {display: flex; justify-content: center; align-items: center; padding: 2vw;flex-direction: column;height: 30%;}
