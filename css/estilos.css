@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap')
+
 body {background-color: white;}
 
 .subtitulo1 {color: #f7a072;}
@@ -18,17 +19,23 @@ body {background-color: white;}
 .imageningredientes {height: 200px;width: 200px;}
 
 .logos {width: 50px; height: 50px;}
+@media (max-width: 575px) {
+    .elementoflotante {position: relative; bottom: 5%; left: 50%;}}
+@media (max-width: 575px) {
+                          .presentación {display: none;}}
 .elementoflotante {position: fixed; bottom: 5%;left: 90%;}
 nav {background-image: url(../imagenes/fotonavegador.jpeg);height: 40vw;width: 100%; background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;position: 50%; display: flex; justify-content: space-around; flex-wrap: wrap;}
 header {display: flex;justify-content: center;flex-wrap: nowrap;}
 .logo {width: 20vw;}
-a:hover{color: grey;}
+.botones {font-size: 1em;
+          transition: font-size 0.3s ease;}
+.botones:hover{color: white;font-size: 2em; cursor: pointer;;}
 .contenedor {display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;padding: 3vw;}
 .imagen1 {width: 20vw; border: 0.3vw solid;background-color: #e5e5e5; border-color: #e5e5e5; padding: 2vw; display:flex;  justify-content: center; align-items: center;flex-direction: column;}
 .torta {width: 18vw}
 .catalogo {font-size: 1.5em;font-family: 'Playfair Display';color: #F59BAE;display: flex; justify-content: space-around;}
-footer {display: flex; justify-content: space-around; align-items: center; height: 10vw;background-color: #e5e5e5;}
+footer {display: flex; justify-content: space-around; align-items: center; width: 100vw;background-color: #e5e5e5;}
 .redes {font-size: 1.5em;font-family: 'Playfair Display';color: #F59BAE;display: flex; justify-content: center;align-items: center;flex-direction: column;}
 .texto {font-size: 1em;font-family: 'Playfair Display';color: black;text-align: center;}
 .gigi {width: 40vw;}
