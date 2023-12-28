@@ -1,0 +1,1 @@
+function modonocturno() {var body = document.body; body.style.backgroundColor= "#000000"}

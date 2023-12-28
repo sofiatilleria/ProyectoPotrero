@@ -24,13 +24,14 @@ body {background-color: white;}
 @media (max-width: 575px) {
                           .presentación {display: none;}}
 .elementoflotante {position: fixed; bottom: 5%;left: 90%;}
-nav {background-image: url(../imagenes/fotonavegador.jpeg);height: 40vw;width: 100%; background-repeat: no-repeat;
+.fotonavegador {width: 100%;}
+ {background-image: url(../imagenes/fotonavegador.jpeg);height: 40vw;width: 100%; background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;position: 50%; display: flex; justify-content: space-around; flex-wrap: wrap;}
 header {display: flex;justify-content: center;flex-wrap: nowrap;}
 .logo {width: 20vw;}
 .botones {font-size: 1em;
           transition: font-size 0.3s ease;}
-.botones:hover{color: white;font-size: 2em; cursor: pointer;;}
+.botones:hover{color: grey;font-size: 1.5em; cursor: pointer;;}
 .contenedor {display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;padding: 3vw;}
 .imagen1 {width: 20vw; border: 0.3vw solid;background-color: #e5e5e5; border-color: #e5e5e5; padding: 2vw; display:flex;  justify-content: center; align-items: center;flex-direction: column;}
 .torta {width: 18vw}
